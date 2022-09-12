@@ -1,0 +1,85 @@
+.parent{
+    display: flex;
+    justify-content: space-around;
+}
+.line span,button{
+    margin: 10px 10px;
+}
+.btn{
+    background-color: blue;
+    color: white;
+    border: 1px solid white;
+    height: 30px;
+    width: 80px;
+}
+.log{
+    height: 30px;
+    width: 80px;
+}
+.imge{
+    background-image: url('../images/web.jpeg');
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+}
+.slide{
+    margin-top: 50px;
+    height: 300px;
+    width: 320px;
+    text-align: center;
+    background-color: white;
+}
+
+.maindiv{
+    position: relative;
+}
+.slide{
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 40px;
+}
+.third{
+    text-align: center;
+    background-color: blue;
+    color: white;
+}
+.fourth-first{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: aquamarine;
+}
+.token{
+    text-align: center;
+    background-color: blue;
+    color: white;
+}
+.token p{
+    width: 400px;
+    margin: 0 auto;
+}
+.currency{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(108, 160, 142);
+}
+.dex{
+    border: 1px solid ;
+    height: 80px;
+    width: 280px;
+    text-align: center;
+    margin-top: 10px;
+    background-color: white;
+}
+.text{
+    display: flex;
+    justify-content: space-around;
+}
+.footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+.footer span i{
+    margin-left: 10px;
+}
